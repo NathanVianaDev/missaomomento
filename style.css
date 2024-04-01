@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-image: url(Images/fundonovo.png);
+    background-repeat: no-repeat;
+    background-color: #4C94BC;
+}
+
+.inicio{
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 500px;
+}
+
+.inicio h1{
+    font-size: 70px;
+}
+
+.inicio h2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.projeto{
+    display: flex;
+    padding-bottom: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 20% ;
+}
+
+h3{
+    text-align: center;
+    font-size: 50px;
+    padding: 20px 0;
+}
+
+.img1{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    padding-right: 20vw;
+}
+
+.projeto img{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 10px;
+    box-shadow: 0 0 1rem black;
+}
+
+.projeto p{
+    padding: 10px 0;
+}
+
+span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.textotestemunho{
+    background-color: rgba(15, 15, 15, 0.1);
+}
+
+
+.testemunho{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+    align-items: center;
+    justify-content: center;
+    margin: 5% 20% ;
+    font-size: 20px;
+}
+
+.pessoa2{
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+.form {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(27, 26, 26, 0.315);
+}
+  
+
+
+.form .title {
+    color: royalblue;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.form input {
+    outline: 0;
+    border: 1px solid rgb(219, 213, 213);
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 100%;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: 1px solid rgb(219, 213, 213);
+    align-items: center;
+    justify-content: center;
+  }
+  
+.form button {
+    align-self: flex-end;
+    padding: 8px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: royalblue;
+    color: #fff;
+    cursor: pointer;
+}
+  
+footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} 
+
+.text-body{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background: none;
+        background-color: #4C94BC;
+    }
+    .container{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .inicio{
+        padding: 0;
+    }
+    .inicio h1{
+        font-size: 40px;
+    }
+    .inicio h2{
+        font-size: 25px;
+        padding-bottom: 100px;
+    }
+    .conteudo h3{
+        font-size: 30px;
+    }
+    .projeto{
+        padding: 0;
+        margin: 0;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 80px;
+    }
+    .img1{
+        padding: 0;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .projeto img{
+        width: 50%;
+        height: 50%;
+    }
+    .testemunho{
+        padding-bottom: 50px;
+    }
+}
